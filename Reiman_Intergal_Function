@@ -21,3 +21,6 @@ F(x)=f(x).
 Riemann Integrals are often computed using various techniques, such as the Riemann sum, which approximates the integral using a finite number of partitions (rectangles or trapezoids). As the number of partitions increases, the approximation becomes more accurate and approaches the true integral.
 
 Riemann Integrals are essential tools in calculus for calculating quantities like area under a curve, total accumulated change, and various physical and engineering applications. The concept forms the basis for many other integral definitions and techniques in mathematics.
+While Riemann integrals are fundamental, there are other integral concepts like the Lebesgue Integral, which extends the scope of integrable functions and is used in advanced mathematical analysis.
+
+The Riemann Integral is a foundational concept that forms the basis for understanding and calculating the integral of functions. It's a core component of calculus, and its principles are used to solve a wide range of real-world problems that involve accumulation, summation, and area calculations.
