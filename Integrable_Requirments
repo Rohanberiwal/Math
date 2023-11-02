@@ -1,0 +1,17 @@
+Boundedness: The function should be bounded over the interval of interest. This means that there should be upper and lower bounds 
+for the function's values within the interval. A function that doesn't have these bounds may not be integrable.
+
+Finite Discontinuities: If the function has discontinuities within the interval
+, they should be finite in number and magnitude. Isolated discontinuities (e.g., jump discontinuities) are typically acceptable, but essential singularities or infinite discontinuities can make a function non-integrable.
+
+Piecewise Continuity: If the function is not continuous
+at certain points within the interval, it should be piecewise continuous. This means it can be divided into a finite number of subintervals where it is continuous except possibly at the endpoints of those subintervals.
+
+Limit Behavior: The function should have well-defined limits at the endpoints of the interval,
+meaning that the limits as you approach the endpoints from within the interval exist and are finite.
+
+Lebesgue Integrability: In more advanced contexts, you may encounter the Lebesgue Integral,
+which extends the concept of integrability to a broader class of functions. A function that might not be Riemann integrable could still be Lebesgue integrable.
+
+Keep in mind that the conditions for integrability can vary between Riemann 
+integrability, Lebesgue integrability, and other types of integrability, so the context and specific requirements matter.
