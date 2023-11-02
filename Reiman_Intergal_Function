@@ -1,0 +1,23 @@
+
+The Riemann Integral is a mathematical concept used to calculate the integral of a function over a closed interval. It's one of the fundamental concepts in calculus. The Riemann Integral of a function 
+
+ f(x)dx.
+
+There are two main types of Riemann Integrals:
+
+Definite Integral: This represents the signed area between the curve of the function and the x-axis over the given interval. The definite integral is a number that quantifies the "accumulated" effect of the function over the interval.
+​
+ f(x)dx
+
+Indefinite Integral (Antiderivative): This is the reverse process of differentiation. The indefinite integral of a function 
+
+f(x) is another function 
+F(x) (usually with a "+ C" constant) such that 
+
+F(x)=f(x).
+
+∫f(x)dx=F(x)+C
+
+Riemann Integrals are often computed using various techniques, such as the Riemann sum, which approximates the integral using a finite number of partitions (rectangles or trapezoids). As the number of partitions increases, the approximation becomes more accurate and approaches the true integral.
+
+Riemann Integrals are essential tools in calculus for calculating quantities like area under a curve, total accumulated change, and various physical and engineering applications. The concept forms the basis for many other integral definitions and techniques in mathematics.
