@@ -1,0 +1,39 @@
+The Dirac Delta Function (
+�
+(
+�
+)
+δ(x)) is a mathematical distribution representing an idealized "point source" or impulse. It's not a conventional function but a distribution. It is defined such that it is zero for all values of 
+�
+x except at 
+�
+=
+0
+x=0, where it becomes infinitely tall. This function is normalized, ensuring that the area under its curve equals 1. Its key property, the "sifting property," allows it to extract the value of a function at the point 
+�
+=
+�
+x=a. The Dirac Delta Function is widely used in mathematics, physics, and engineering to model concentrated forces, idealized point sources, and is crucial in solving differential equations and signal analysis.
+
+
+The Dirac Delta Function (
+�
+(
+�
+)
+δ(x)) is a distribution used to represent a mathematical "point source" or impulse. It is not a traditional function but rather a distribution.
+
+It is defined as zero for all values of 
+�
+x except at 
+�
+=
+0
+x=0, where it is infinitely tall.
+The area under the curve of the Dirac Delta Function is equal to 1.
+It possesses the "sifting property," which extracts the value of a function at the point 
+�
+=
+�
+x=a.
+It is widely used in mathematics, physics, and engineering to model concentrated forces, idealized point sources, and in solving differential equations and signal analysis.
