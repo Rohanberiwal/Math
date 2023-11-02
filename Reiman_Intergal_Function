@@ -24,3 +24,50 @@ Riemann Integrals are essential tools in calculus for calculating quantities lik
 While Riemann integrals are fundamental, there are other integral concepts like the Lebesgue Integral, which extends the scope of integrable functions and is used in advanced mathematical analysis.
 
 The Riemann Integral is a foundational concept that forms the basis for understanding and calculating the integral of functions. It's a core component of calculus, and its principles are used to solve a wide range of real-world problems that involve accumulation, summation, and area calculations.
+
+To determine whether a function is Riemann integrable, you typically need to assess its properties over a closed interval. The Riemann Integral is defined for functions that meet certain criteria. Here are the main conditions to consider:
+
+Boundedness: The function 
+�
+(
+�
+)
+f(x) must be bounded on the closed interval 
+
+m≤f(x)≤M for all 
+
+[a,b].
+
+Finite Discontinuities: 
+
+f(x) can have a finite number of discontinuities within the interval 
+[
+
+]
+[a,b]. Discontinuities should be isolated, meaning they occur at isolated points and not over an extended region.
+
+Piecewise Continuity: If 
+
+f(x) is not continuous at certain points within the interval, it should be piecewise continuous, meaning it can be divided into a finite number of subintervals where it is continuous except possibly at the endpoints of those subintervals.
+
+Limit Behavior: The function should have well-defined limits at the endpoints 
+
+b, which means 
+lim
+
+lim 
+x→a
+​
+ f(x) and 
+lim
+⁡
+lim 
+x→b
+​
+ f(x) exist.
+
+If a function satisfies these conditions, it is considered Riemann integrable on the interval 
+[
+
+]
+[a,b], and you can proceed to calculate its Riemann Integral.
