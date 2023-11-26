@@ -1,0 +1,13 @@
+The Well-Ordering Principle is a fundamental concept in set theory
+that states that every non-empty set of positive integers has a least element.
+In other words, any set of positive integers must contain a smallest element.
+
+However, the Well-Ordering Principle, as typically formulated, specifically refers 
+to well-ordering of sets of positive integers and doesn't directly apply to negative integers or other types of sets.
+
+For negative integers or other types of sets, the concept of well-ordering doesn't hold
+in the same way. The set of negative integers, for example, does not have a least element 
+because you can always find a more negative integer.
+
+In general, the Well-Ordering Principle is a property of certain sets, and it doesn't 
+universally apply to all types of sets, especially those with no minimum element.
