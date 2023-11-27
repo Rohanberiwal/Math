@@ -1,0 +1,59 @@
+A pseudoprime number is a composite (non-prime) number that exhibits some properties typical of prime numbers. Specifically, a pseudoprime to base 
+
+n for which 
+
+ ≡1(modn). In other words, raising 
+�
+a to the power of 
+�
+−
+1
+n−1 and then taking the result modulo 
+�
+n yields 1.
+
+There are two main types of pseudoprimes:
+
+Fermat Pseudoprimes: These are composite numbers 
+�
+n that satisfy Fermat's Little Theorem: 
+�
+�
+−
+1
+≡
+1
+(
+m
+o
+d
+�
+)
+a 
+n−1
+ ≡1(modn) for any 
+�
+a relatively prime to 
+�
+n. If 
+�
+n is a Fermat pseudoprime to base 
+�
+a, it doesn't guarantee that 
+�
+n is prime, but it shares a property with prime numbers.
+
+Carmichael Numbers: Carmichael numbers are composite numbers that satisfy the modular arithmetic property similar to Fermat's Little Theorem for all 
+�
+a that are coprime to 
+�
+n. Carmichael numbers are more stringent pseudoprimes, as they fool the test for primality for all possible bases 
+�
+a.
+
+It's important to note that while pseudoprimes share certain properties with prime numbers, they are not truly prime. They can be considered as "false positives" when using certain primality tests. In practice, pseudoprimes are often encountered in number theory and cryptography, where testing for primality is a common task. Algorithms and tests need to be carefully designed to account for the presence of pseudoprimes and avoid misidentifying them as prime numbers.
+
+
+
+
+
