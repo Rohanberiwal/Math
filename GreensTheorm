@@ -1,0 +1,13 @@
+Green's Theorem is applicable to regions that are simply connected, meaning that there are no 
+"holes" or voids in the interior of the region. In other words, the region should be connected 
+and not have any isolated components or voids that prevent a continuous deformation into a point.
+
+Mathematically, Green's Theorem holds for a region 
+D that is simply connected and has a piecewise smooth, positively oriented boundary 
+C. If the region has holes or isolated components, Green's Theorem may not apply directly.
+
+If a region has holes, one can apply Green's Theorem to each connected component separately. 
+This means breaking down the region into simple, connected pieces and applying the theorem to each piece individually.
+
+If there are holes in the region, the circulation and flux calculations may be affected by the presence of these holes.
+In such cases, it's important to account for the contributions from the holes separately.
