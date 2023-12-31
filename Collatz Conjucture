@@ -1,0 +1,31 @@
+Collatz - Conjuecture  
+
+The Collatz conjecture is one of the most famous unsolved problems in mathematics. 
+The conjecture asks whether repeating two simple arithmetic operations will eventually transform every positive integer into 1. 
+It concerns sequences of integers in which each term is obtained from the previous term as follows: if the previous term is even
+the next term is one half of the previous term. If the previous term is odd, the next term is 3 times the previous term plus 1.
+The conjecture is that these sequences always reach 1, no matter which positive integer is chosen to start the sequence.
+
+Consider the following operation on an arbitrary positive integer:
+
+If the number is even, divide it by two.
+If the number is odd, triple it and add one.
+
+If the conjecture is false, it can only be because there is some starting number which gives rise to a sequence that does not contain 1.
+Such a sequence would either enter a repeating cycle that excludes 1, or increase without bound. No such sequence has been found.
+
+The smallest i such that ai < a0 is called the stopping time of n. 
+The smallest k such that ak = 1 is called the total stopping time of n .
+The Collatz conjecture asserts that the total stopping time of every n is finite.
+
+Syracuse function : An optimisation for the collatz conjecture .
+
+If k is an odd integer, then 3k + 1 is even, so 3k + 1 = 2ak′ with k′ odd and a ≥ 1. 
+The Syracuse function is the function f from the set I of positive odd integers into itself, for which f(k) = k′
+
+Properties of Syracuse Function : 
+1.>For all k ∈ I, f(4k + 1) = f(k)
+2.>In more generality: For all p ≥ 1 and odd h, f^(p − 1)(2^(p)*(h − 1) = 2 × 3^(p − 1)*(h − 1). Where  f^(p − 1) is function iteration notation
+3.> For all odd h, f(2h − 1) ≤ 3h-1 / 2 .
+
+The Collatz conjecture is equivalent to the statement that, for all k in I, there exists an integer n ≥ 1 such that f^(n)(k) = 1.
